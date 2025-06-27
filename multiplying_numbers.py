@@ -1,5 +1,5 @@
 import sys
-def multiply_numbers(num1, num2):
+def multiply(num1, num2):
     try:
         result = float(num1) * float(num2)
         print(f"The product of {num1} and {num2} is {result}.")
@@ -13,4 +13,4 @@ if __name__ == "__main__":
         sys.exit(1)
     num1 = sys.argv[1]
     num2 = sys.argv[2]
-    result = multiply_numbers(sys.argv[1], sys.argv[2])  
+    result = multiply(sys.argv[1], sys.argv[2])  
